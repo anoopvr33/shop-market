@@ -259,7 +259,7 @@ export default function ProductViewer({
                     md:text-base
                   "
                   >
-                    {product?.description ||
+                    { /*product?.description ||*/
                       "Hi, it's a very smooth and lightweight product. Would you like some?"}
                   </p>
 
@@ -278,7 +278,7 @@ export default function ProductViewer({
                   <div className="mt-5 flex items-center gap-2 text-sm text-neutral-400">
                     <span>📍</span>
 
-                    <span>{product?.location || "Thrissur"}</span>
+                    <span>{ /*product?.location ||*/ "Thrissur"}</span>
                   </div>
 
                   {/* Divider */}
