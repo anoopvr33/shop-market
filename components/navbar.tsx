@@ -40,11 +40,11 @@ export default function Navbar() {
               width={42}
               height={42}
               alt="ShopEase Logo"
-              className="h-9 w-9 rounded-xl md:h-[42px] md:w-[42px]"
+              className="h-5 w-5 rounded-xl md:h-[42px] md:w-[42px]"
             />
 
             <div className="hidden min-[400px]:block">
-              <h2 className="text-lg font-bold md:text-xl">ShopEase</h2>
+              <h2 className="text-sm font-bold md:text-xl">ShopEase</h2>
 
               <p className="text-[10px] text-neutral-500 md:text-xs">
                 Fashion Store

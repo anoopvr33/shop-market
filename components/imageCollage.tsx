@@ -113,7 +113,7 @@ export default function ImageCollage() {
             </div>
 
             {/* Price */}
-            <div className="absolute bottom-2 left-2 md:bottom-3 md:left-3 bg-white/95 backdrop-blur text-black text-xs md:text-sm font-semibold px-2 py-0.5 md:px-3 md:py-1 rounded-full">
+            <div className="absolute bottom-2 left-2 md:bottom-3 md:left-3 bg-white/95 backdrop-blur text-black text-[10px] md:text-sm font-semibold px-2 py-0.5 md:px-3 md:py-1 rounded-full">
               ₹{" "}
               {img.price.length === 1
                 ? img.price[0].toLocaleString()
